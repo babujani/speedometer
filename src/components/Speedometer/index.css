@@ -1,0 +1,60 @@
+.bg-container {
+  background-color: black;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.meter-img {
+  width: 60%;
+  margin-top: 0px;
+}
+.head {
+  color: white;
+  font-size: 20px;
+  font-family: 'Roboto';
+  margin-top: 20px;
+}
+@media (min-width: 768px) {
+  .head {
+    font-size: 40px;
+  }
+}
+.speed-text {
+  color: white;
+  font-family: 'roboto';
+  font-size: 24px;
+}
+.speedLimit {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #cbd5e1;
+}
+.button {
+  font-family: 'roboto';
+  border-radius: 10px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.accBtn {
+  background-color: #0b69ff;
+  color: white;
+  font-weight: bold;
+  margin-right: 20px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #0b69ff;
+}
+.brkBtn {
+  border-color: #94a3b8;
+  color: #94a3b8;
+  background-color: transparent;
+  font-weight: bold;
+  border-width: 2px;
+  border-style: solid;
+}
